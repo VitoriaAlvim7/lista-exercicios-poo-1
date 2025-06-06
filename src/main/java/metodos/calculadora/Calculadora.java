@@ -1,4 +1,4 @@
-package Métodos.calculadora;
+package metodos.calculadora;
 
 public class Calculadora {
 

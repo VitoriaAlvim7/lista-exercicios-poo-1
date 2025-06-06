@@ -1,4 +1,4 @@
-package Métodos.palindromos;
+package metodos.palindromos;
 
 public class Palindromo {
 

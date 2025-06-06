@@ -1,4 +1,4 @@
-package Arrays.MatrizSomaDiagonais;
+package arrays.MatrizSomaDiagonais;
 
 public class MatrizQuadrada {
 

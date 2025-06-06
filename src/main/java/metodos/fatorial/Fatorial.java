@@ -1,4 +1,4 @@
-package Métodos.fatorial;
+package metodos.fatorial;
 
 public class Fatorial {
 

@@ -1,4 +1,6 @@
-package Arrays.matrizMaiorMenor;
+package arrays.MatrizSomaDiagonais;
+
+
 
 import java.util.Scanner;
 
@@ -12,22 +14,22 @@ public class Main {
         System.out.print("Digite o número de colunas da matriz: ");
         int colunas = sc.nextInt();
 
-        Matriz matriz = new Matriz(linhas, colunas);
+        MatrizQuadrada matrizQuadrada = new MatrizQuadrada(linhas, colunas);
 
         for(int i = 0; i < linhas; i++) {
             for (int j = 0; j < colunas; j++) {
                 System.out.print("Digite o valor para a posição [" + i + "][" + j + "]: ");
                 int valor = sc.nextInt();
-                matriz.preecherMatriz(i, j, valor);
+                matrizQuadrada.preecherMatriz(i, j, valor);
             }
         }
-        matriz.mostrarMatriz();
+        matrizQuadrada.mostrarMatriz();
 
-        int maior = matriz.encontrarMaiorElemento();
-        int menor = matriz.encontrarMenorElemento();
+        int somaDiagonalPrincipal = matrizQuadrada.calcularSomaDiagonalPrincipal();
+        int somaDiagonalSecundaria = matrizQuadrada.calcularSomaDiagonalSecundaria();
 
-        System.out.println("O maior elemento da matriz é: " + maior);
-        System.out.println("O menor elemento da matriz é: " + menor);
-        sc.close();
+        System.out.println("A soma da diagonal principal é: " + somaDiagonalPrincipal);
+        System.out.println("A soma da diagonal secundária é: " + somaDiagonalSecundaria);
+
     }
 }

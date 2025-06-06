@@ -1,4 +1,4 @@
-package Arrays.matrizMaiorMenor;
+package arrays.matrizMaiorMenor;
 
 public class Matriz {
 

@@ -1,4 +1,4 @@
-package Métodos.palindromos;
+package metodos.palindromos;
 
 import java.util.Scanner;
 

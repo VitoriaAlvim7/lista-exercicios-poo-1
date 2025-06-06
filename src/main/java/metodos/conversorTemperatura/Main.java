@@ -1,4 +1,4 @@
-package Métodos.conversorTemperatura;
+package metodos.conversorTemperatura;
 
 import java.util.Scanner;
 
