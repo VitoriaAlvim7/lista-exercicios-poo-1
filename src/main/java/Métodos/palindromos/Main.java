@@ -17,5 +17,6 @@ public class Main {
         } else {
             System.out.println("A frase ou palavra não é um palíndromo.");
         }
+        sc.close();
     }
 }

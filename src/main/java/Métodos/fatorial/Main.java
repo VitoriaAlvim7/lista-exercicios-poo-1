@@ -15,5 +15,6 @@ public class Main {
 
         System.out.println("O fatorial do número " + numero + " é: " + resultado);
 
+        sc.close();
     }
 }
