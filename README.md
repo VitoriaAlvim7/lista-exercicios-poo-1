@@ -1,6 +1,4 @@
-# Nome do Projeto
-
-[Descreva aqui, em uma ou duas frases, o objetivo do seu programa de linha de comando.]
+# Lista de Exercicios de POO
 
 ## 💻 Linguagem e Versão
 
