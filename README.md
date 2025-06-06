@@ -1,4 +1,4 @@
-# NLista de Exercicios de POO
+# Lista de Exercicios de POO
 
 ## 💻 Linguagem e Versão
 
