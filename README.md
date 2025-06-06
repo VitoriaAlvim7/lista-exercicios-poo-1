@@ -3,13 +3,9 @@
 ## 💻 Linguagem e Versão
 
 * **Linguagem:** Java
-* **Versão do Ambiente:** JDK 17 (ou a versão que você utilizou)
+* **Versão do Ambiente:** JDK 17
 
 ---
-
-## 🚀 Como Compilar e Executar no Terminal
-
-Siga os passos abaixo para compilar e executar o projeto diretamente pelo terminal.
 
 ### Pré-requisitos
 
